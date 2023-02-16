@@ -1,0 +1,10 @@
+{
+  "energy-kj": { "value": 954.0, "unit": "KJ" }, 
+  "energy-kcal": { "value": 227.0, "unit": "KCal" },
+  "fat": { "value": 9.1, "unit": "g" },
+  "saturates": { "value": 4.2, "unit": "g" },
+  "carbohydrate": { "value": 24.0, "unit": "g" },
+  "sugars": { "value": 1.9, "unit": "g" },
+  "protein": { "value": 11.0, "unit": "g" },
+  "salt": { "value": 1.07, "unit": "g" }
+}
