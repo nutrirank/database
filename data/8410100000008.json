@@ -1,66 +1,176 @@
 {
-  "gtin": "8410100000008",
-  "name": "BUITONI Forno di piertra - Prosciuto e Formaggio (350g)",
-  "ingredients": [
-    { "id": "wheat-flour", "name": "Harina de trigo" }, 
-    { "id": "tomato": "name": "Tomate", "percent": "20%" }, 
-    { 
-      "id": "mozzarella", "name": "Queso mozzarella", "percent": "15%",
-      "composition": [
-            { "id": "milk", "name": "Leche" }, 
-            { "id": "salt", "name": "Sal" }, 
-            { "name": "Cuajo" },
-            { "name": "Fermentos lácticos" }
-        ]
-      }, 
-    { "id": "water", "name": "Agua" },
-    { 
-      "id": "ham", "name": "Jamón cocido", "percent": "11%",
-      "composition": [
-        { "id": "ham", "name": "Jamón" }, 
-        { "id": "water", "name": "Agua" }, 
-        { "id": "salt", "name": "Sal" }, 
-        { "id": "dextrose", "name": "Dextrosa" }, 
-        { "id": "stabilizers", "name": "Estabilizantes (ácido cítrico y trifosfato)" }
-        { "name": "Extractos de especias" }
-        { "name": "Antioxidante (ácido ascórbico)" }, 
-        { "name": "Humo" }, 
-        { "name": "Conservador (nitrito sódico)" }
-        ]
-    },
-    { "id": "emmental", "name": "Queso emmental", "percent": "5%" },
-    { "id": "milk", "name": "Leche" },
-    { "id": "sunflower-oil", "name": "Aceite de girasol" },
-    { 
-      "id": "cheese-cream", "name": "Crema de queso", 
-      "composition": [
-        { "name": "Leche" },
-        { "name": "Fermentos lácticos" },
-        { "name": "Sal" },
-        { "name": "Cuajo" },
-        ]
-    },
-    { "name": "Levadura" },
-    { "name": "Leche en polvo" },
-    { "name": "Sal" },
-    { "name": "Azúcar" },
-    { "name": "Harina de trigo malteada" },
-    { "name": "Almidón de maíz" },
-    { "name": "Especias y plantas aromáticas" },
-    { "name": "Vinagre de vino blanco" },
-    { "name": "Emulgente (lecitina de girasol)" },
-    { "name": "Mosto de uva" },
-    { "name": "Crustáceos", "optional": "true" },
-    { "name": "Huevo", "optional": "true" },
-    { "name": "Pescado", "optional": "true" },
-    { "name": "Soja", "optional": "true" },
-    { "name": "Frutos secos", "optional": "true" },
-    { "name": "Apio", "optional": "true" },
-    { "name": "Mostaza", "optional": "true" },
-    { "name": "Sésamo", "optional": "true" },
-    { "name": "Altramuz", "optional": "true" },
-    { "name": "Moluscos", "optional": "true" }
-   ]
-  
-  
+	"gtin": "8410100000008",
+	"name": "BUITONI Forno di piertra - Prosciuto e Formaggio (350g)",
+	"ingredients": [{
+			"id": "wheat-flour",
+			"name": "Harina de trigo"
+		},
+		{
+			"id": "tomato",
+			"name": "Tomate",
+			"percent": "20%"
+		},
+		{
+			"id": "mozzarella",
+			"name": "Queso mozzarella",
+			"percent": "15%",
+			"composition": [{
+					"id": "milk",
+					"name": "Leche"
+				},
+				{
+					"id": "salt",
+					"name": "Sal"
+				},
+				{
+					"name": "Cuajo"
+				},
+				{
+					"name": "Fermentos lácticos"
+				}
+			]
+		},
+		{
+			"id": "water",
+			"name": "Agua"
+		},
+		{
+			"id": "ham",
+			"name": "Jamón cocido",
+			"percent": "11%",
+			"composition": [{
+					"id": "ham",
+					"name": "Jamón"
+				},
+				{
+					"id": "water",
+					"name": "Agua"
+				},
+				{
+					"id": "salt",
+					"name": "Sal"
+				},
+				{
+					"id": "dextrose",
+					"name": "Dextrosa"
+				},
+				{
+					"id": "stabilizers",
+					"name": "Estabilizantes (ácido cítrico y trifosfato)"
+				}, {
+					"name": "Extractos de especias"
+				}, {
+					"name": "Antioxidante (ácido ascórbico)"
+				},
+				{
+					"name": "Humo"
+				},
+				{
+					"name": "Conservador (nitrito sódico)"
+				}
+			]
+		},
+		{
+			"id": "emmental",
+			"name": "Queso emmental",
+			"percent": "5%"
+		},
+		{
+			"id": "milk",
+			"name": "Leche"
+		},
+		{
+			"id": "sunflower-oil",
+			"name": "Aceite de girasol"
+		},
+		{
+			"id": "cheese-cream",
+			"name": "Crema de queso",
+			"composition": [{
+					"name": "Leche"
+				},
+				{
+					"name": "Fermentos lácticos"
+				},
+				{
+					"name": "Sal"
+				},
+				{
+					"name": "Cuajo"
+				}
+			]
+		},
+		{
+			"name": "Levadura"
+		},
+		{
+			"name": "Leche en polvo"
+		},
+		{
+			"name": "Sal"
+		},
+		{
+			"name": "Azúcar"
+		},
+		{
+			"name": "Harina de trigo malteada"
+		},
+		{
+			"name": "Almidón de maíz"
+		},
+		{
+			"name": "Especias y plantas aromáticas"
+		},
+		{
+			"name": "Vinagre de vino blanco"
+		},
+		{
+			"name": "Emulgente (lecitina de girasol)"
+		},
+		{
+			"name": "Mosto de uva"
+		},
+		{
+			"name": "Crustáceos",
+			"optional": "true"
+		},
+		{
+			"name": "Huevo",
+			"optional": "true"
+		},
+		{
+			"name": "Pescado",
+			"optional": "true"
+		},
+		{
+			"name": "Soja",
+			"optional": "true"
+		},
+		{
+			"name": "Frutos secos",
+			"optional": "true"
+		},
+		{
+			"name": "Apio",
+			"optional": "true"
+		},
+		{
+			"name": "Mostaza",
+			"optional": "true"
+		},
+		{
+			"name": "Sésamo",
+			"optional": "true"
+		},
+		{
+			"name": "Altramuz",
+			"optional": "true"
+		},
+		{
+			"name": "Moluscos",
+			"optional": "true"
+		}
+	]
+
+
 }
